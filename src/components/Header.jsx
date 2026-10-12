@@ -11,9 +11,7 @@ const HeaderContainer = styled.header`
 
 const Nav = styled.nav`
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.5rem;
+  justify-content: space-around;
   max-width: 600px;
   margin: 0 auto;
 `;
@@ -55,7 +53,7 @@ function Header() {
           <FaList /> List
         </NavLink>
         <NavLink to="/popular" className={isActive('/popular')}>
-          <FaFire /> Popular Top 5
+          <FaFire /> Popular Top 3
         </NavLink>
         <NavLink to="/submit" className={isActive('/submit')}>
           <FaPlus /> Submit New restaurant

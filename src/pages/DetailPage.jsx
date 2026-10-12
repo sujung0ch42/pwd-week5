@@ -83,14 +83,7 @@ function DetailPage() {
       
       <h1>{restaurant.name}</h1>
       
-      <RestaurantImage
-        src={restaurant.image || '/placeholder.svg'}
-        alt={restaurant.name}
-        onError={(e) => {
-          e.currentTarget.onerror = null;
-          e.currentTarget.src = '/placeholder.svg';
-        }}
-      />
+      <RestaurantImage src={restaurant.image} alt={restaurant.name} />
       
       <InfoSection>
         <h3>기본 정보</h3>

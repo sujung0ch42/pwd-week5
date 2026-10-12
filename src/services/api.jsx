@@ -70,42 +70,6 @@ export const restaurantAPI = {
           recommendedMenu: ["냉모밀", "김치돈까스나베", "코돈부르"],
           likes: 0,
           image: "https://search.pstatic.net/common/?src=https%3A%2F%2Fldb-phinf.pstatic.net%2F20190707_63%2F1562462598960nPDMy_JPEG%2FW7iKQEhTMzCF3flC1t0pzgzF.jpeg.jpg"
-        },
-        {
-          id: 4,
-          name: "마라공방",
-          category: "중식",
-          location: "아주대학교 정문 인근 (실습용 예시)",
-          priceRange: "9,000-15,000원",
-          rating: 4.85,
-          description: "실습용 예시 데이터입니다. 얼큰한 마라탕과 꿔바로우.",
-          recommendedMenu: ["마라탕", "꿔바로우", "볶음밥"],
-          likes: 0,
-          image: "/images/mala.svg"
-        },
-        {
-          id: 5,
-          name: "카페 서재",
-          category: "카페",
-          location: "아주대학교 도서관 인근 (실습용 예시)",
-          priceRange: "4,000-8,000원",
-          rating: 4.76,
-          description: "실습용 예시 데이터입니다. 조용히 책 읽기 좋은 카페.",
-          recommendedMenu: ["아메리카노", "바닐라라떼", "수제 쿠키"],
-          likes: 0,
-          image: "/images/cafe.svg"
-        },
-        {
-          id: 6,
-          name: "파스타 연구소",
-          category: "양식",
-          location: "아주대학교 후문 인근 (실습용 예시)",
-          priceRange: "9,500-14,000원",
-          rating: 4.7,
-          description: "실습용 예시 데이터입니다. 크림·토마토 파스타 전문.",
-          recommendedMenu: ["까르보나라", "토마토 파스타", "리조또"],
-          likes: 0,
-          image: "/images/pasta.svg"
         }
       ]
     };

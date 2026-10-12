@@ -183,12 +183,8 @@ function RestaurantCard({ restaurant }) {
   return (
     <Card>
       <CardImage 
-        src={restaurant.image || '/placeholder.svg'}
-        alt={restaurant.name}
-        onError={(e) => {
-          e.currentTarget.onerror = null;
-          e.currentTarget.src = '/placeholder.svg';
-        }}
+        src={restaurant.image || 'https://via.placeholder.com/300'} 
+        alt={restaurant.name} 
       />
       <CardContent>
         <CardHeader>
